@@ -4,6 +4,5 @@ let maxNumber;
 for (let button of buttons) {
   button.addEventListener("click", (e) => {
     userChoice = e.target.innerText;
-    // hrant
   });
 }
